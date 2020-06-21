@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deanclark Photography</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/sty.css">
+
+    <style>
+        @media (min-width: 992px) {
+            #main{
+                width: 74%;
+                position: relative;
+                left: .9rem;
+            }
+        }    
+    </style>
+</head>
+<body class="contact-page">
+  
+    <div class="container-fluid px-0">
+        <div class="row d-flex">
+            <div class="d-flex justify-content-start">
+                <div class="sidebar text-center" id="mySidebar">
+                    <a href="javascript:void(0)" class="closebtn d-lg-none" onclick="closeNav()"><i style="color: #FFB6B6;" class="fa fa-times-circle "></i></a>
+                    <div class="logo ">
+                        <img src="./assets/image/ar-camera.png" style="width: 4rem;" alt="Logo">
+                        <h1 class="fw-600" ><a href="indexx.html" style="color: white;">Doreen Ntumy</a></h1>
+                    </div>
+                    <nav class="navbar">        
+                        <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link " href="indexx.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                        </ul>                          
+                    </nav>
+                    <div class="socials py-3 d-flex justify-content-center">
+                        <a  href="" target="blank" class="btn-floating btn-gplus mr-2">
+                            <i class="fa fa-facebook fa-2x"> </i>
+                        </a>
+                        <a  href="" target="blank" class="btn-floating btn-tw mx-1">
+                            <i class="fa fa-twitter fa-2x"> </i>
+                        </a>
+                        <a  href="" target="blank" class="btn-floating btn-li mx-2">
+                            <i class="fa fa-instagram fa-2x"> </i>
+                        </a>
+                        <a href="" target="blank" class="btn-floating btn-fb mx-2">
+                            <i class="fa fa-linkedin fa-2x"> </i>
+                        </a>
+                        <a href="" target="blank" class="btn-floating btn-fb mx-2">
+                            <i class="fa fa-envelope fa-2x"></i>
+                        </a>
+                    </div>
+
+                    <div class="py-3">
+                        <button type="button" class="btn btnn fw-600" style="background-color: #FFB6B6; color:#000000; border-color:#000000; border-radius: 3rem; width: 10rem;">Hire me</button>
+                    </div>
+
+                    <div class="d-flex justify-content-center">
+                        <h6 class=" align-self-center pr-2" style="color: #818181;transition: 0.3s; font-size: 1rem;">Dark mode</h6>
+                        <label class="switch "> 
+                            <input type="checkbox" onclick="myFunction()">
+                            
+                            <span class="slider round"></span>
+                        </label> 
+                    </div>
+                </div>
+
+            
+            </div>
+
+            <div class=" right d-flex justify-content-end">
+
+            
+                <div class="main-menu " id="main">
+                    <div class="top-left">
+                        <button  onclick="openNav()" class="openbtn navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fa fa-bars"></span>
+                        </button>
+                    </div>
+                
+                    <div class="p-gallery px-5 text-center">
+                        <h3 class="py-2">Hire me</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                    </div>
+
+
+                    <div class="container-fluid px-0">
+                        <div class="contact" id="contactMe">
+                           
+                            <div class="myform pr-5">
+                                <form method="POST" name="myEmailform" action="" class="needs-validation" novalidate>
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6 pr-lg-3">
+                                        <label for="name">Name:</label>
+                                        <input type="text" class="form-control" name="name" id="name" >
+                                        <div class="valid-feedback">
+                                            Looks good!
+                                        </div>
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                        <label for="email">Email:</label>
+                                        <input type="text" class="form-control" name="email" id="email" >
+                                      </div>
+                                    </div>
+                    
+                                    <div class="form-row">
+                                        <div class="col-12">
+                                            <label for="message">Message:</label>
+                                            <textarea class="form-control" name="message" id="message"  rows="5"></textarea>
+                                        </div>
+                                      
+                                    </div>            
+                                    <div class="py-3">
+                                        <input  class="btn btnn mt-1" type="submit" value="Submit" style="background-color: #000000; color:#FFB6B6; border-color:#000000; width: -webkit-fill-available; border-radius: 3rem;">
+                                    </div>
+                                  
+                                </form>
+                            </div>
+                
+                        </div>
+                   
+                    
+
+                      
+                        <footer class="text-center">
+                            <div class=" text-light py-3">
+                                <div class="socials my-4 ">
+                                    <a  href="" target="blank" class="btn-floating btn-gplus mr-2">
+                                        <i class="fa fa-facebook "> </i>
+                                    </a>
+                                    <a  href="" target="blank" class="btn-floating btn-tw mx-1">
+                                        <i class="fa fa-twitter"> </i>
+                                    </a>
+                                    <a  href="" target="blank" class="btn-floating btn-li mx-2">
+                                        <i class="fa fa-instagram "> </i>
+                                    </a>
+                                    <a href="" target="blank" class="btn-floating btn-fb mx-2">
+                                        <i class="fa fa-linkedin "> </i>
+                                    </a>
+                                    <a href="" target="blank" class="btn-floating btn-fb mx-2">
+                                        <i class="fa fa-envelope "></i>
+                                    </a>
+                                </div>
+                                <p> Copyright &copy; <span style="color: #FFB6B6; font-weight: 600;">Doreen Ntumy</span>  2020  </p>
+                            </div>
+                        </footer>
+                     </div>
+
+                    
+                </div> 
+            </div>
+        </div>
+         
+       
+    </div>
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/colcade@0/colcade.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
