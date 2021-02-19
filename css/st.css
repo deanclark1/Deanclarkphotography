@@ -1,0 +1,98 @@
+html{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+    background-color: white;
+    color: black;
+
+}
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+.navbar{
+    padding-left: 7rem;
+}
+.navbar .navbar-nav a:hover{
+    color: #FFB6B6;
+}
+.fw-600{
+    font-weight: 600;
+}
+.left{
+    position: static;
+    padding-top: 4rem;
+}
+.side-bar{
+    background-color: black;
+}
+
+.logo{
+    padding-bottom: 3rem;
+}
+img{
+    width: 100%;
+}
+
+.left a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.socials a{
+    color: #898989;
+}
+a :hover{
+    color: #FFB6B6;
+}
+.grid{
+    display: flex;
+    padding-bottom: 5em;
+  
+}
+.grid-col {
+    flex: 1;
+    padding: 0 .4em;
+}
+.grid-item img{
+    width: 100%;
+    height: auto;
+    padding-bottom: .8rem;
+    border-radius: 27px;
+}
+
+
+footer{
+    background-color: black;
+}
+
+
+
+/* Media break points */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+      
+  
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+   
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+ 
+}
